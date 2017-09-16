@@ -25,7 +25,7 @@ class BookListViewController: UIViewController {
     func setup(){
         title = "Books"
         
-        let topRated = UIBarButtonItem(title: "Reset", style: .plain, target: self, action: #selector(showAllItems))
+        let topRated = UIBarButtonItem(title: "All", style: .plain, target: self, action: #selector(showAllItems))
         let advanceFilter = UIBarButtonItem(title: "Filter", style: .plain, target: self, action: #selector(showActionSheet))
         
         navigationItem.rightBarButtonItem = topRated
