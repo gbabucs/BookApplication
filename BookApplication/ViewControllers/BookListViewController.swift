@@ -44,7 +44,7 @@ class BookListViewController: UIViewController {
     private func readJSON(){
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
         
-        ServiceManager.getBook() { error, books in
+        ServiceManager.shared.getBook() { error, books in
             self.hideIndicator()
             if error != nil {
                 print(error.debugDescription)
@@ -219,7 +219,7 @@ extension BookListViewController {
             return
         }
         
-        dataSource.filterReading()
+        dataSource.filterReadingItems()
         tableView.reloadData()
     }
     
@@ -229,7 +229,7 @@ extension BookListViewController {
             return
         }
         
-        dataSource.filterPending()
+        dataSource.filterPendingItems()
         tableView.reloadData()
     }
     

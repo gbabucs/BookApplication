@@ -55,6 +55,9 @@ class BookListDataSource {
         self.sourceData = data
         load()
     }
+}
+
+extension BookListDataSource {
     
     // MARK: Functions
     
@@ -80,13 +83,13 @@ class BookListDataSource {
         }
     }
     
-    func filterReading() {
+    func filterReadingItems() {
         data = data.filter { (item) -> Bool in
             item.isReaded == true
         }
     }
     
-    func filterPending() {
+    func filterPendingItems() {
         data = data.filter { (item) -> Bool in
             item.isReaded == false
         }

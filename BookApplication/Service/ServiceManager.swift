@@ -11,9 +11,23 @@ import SwiftyJSON
 
 class ServiceManager {
     
+    // MARK: Types
+    
     typealias BookResponse = (Error?, APIBooks?) -> Void
     
-    class func getBook(completion onCompletion: @escaping BookResponse) -> Void {
+    // MARK: Struct
+    
+    struct Request {
+        static let bookUrl = "https://www.googleapis.com/books/v1/volumes?filter=free-ebooks&q=a"
+    }
+    
+    //MARK: Static
+    
+    static let shared = ServiceManager()
+    
+    // MARK: Functions
+    
+    func getBook(completion onCompletion: @escaping BookResponse) -> Void {
         
         //If want to run local JSON file please rename Books12 to Books
         if let path = Bundle.main.path(forResource: "Books12", ofType: "json") {
@@ -31,9 +45,7 @@ class ServiceManager {
             }
         }
         else {
-            let urlString = "https://www.googleapis.com/books/v1/volumes?filter=free-ebooks&q=a"
-            
-            guard let url = NSURL(string: urlString) else {
+            guard let url = NSURL(string: Request.bookUrl) else {
                 return
             }
             

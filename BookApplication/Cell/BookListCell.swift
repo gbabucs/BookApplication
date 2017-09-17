@@ -52,7 +52,7 @@ class BookListCell: UITableViewCell {
     /**
      Configure cell
      - parameters:
-     - for: Books
+     - for: BookListItem
      */
     
     func configureCell(for data: BookListItem) {
@@ -60,6 +60,8 @@ class BookListCell: UITableViewCell {
         isReaded = data.isReaded
         previewImage.setImage(withUrl: data.url)
     }
+    
+    //MARK: UIView
     
     override func awakeFromNib() {
         super.awakeFromNib()

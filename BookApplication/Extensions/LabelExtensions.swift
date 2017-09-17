@@ -11,6 +11,8 @@ import UIKit
 
 extension UILabel {
     
+    //MARK: Properties
+    
     var optimalHeight: CGFloat {
         get {
             let label = UILabel(frame: CGRect(x: 0, y: 0, width: self.bounds.width, height: .greatestFiniteMagnitude))

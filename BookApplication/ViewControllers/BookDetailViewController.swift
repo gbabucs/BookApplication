@@ -26,12 +26,7 @@ class BookDetailViewController: UIViewController {
     
     var bookDetails: BookDetailItem?
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        configureView()
-        // Do any additional setup after loading the view.
-    }
+    //MARK: Functions
     
     func configureView() {
         guard let bookInfo = bookDetails else {
@@ -48,6 +43,14 @@ class BookDetailViewController: UIViewController {
         
         subtitleLabel.frame = CGRect(x: subtitleLabel.frame.origin.x, y: subtitleLabel.frame.origin.y, width: subtitleLabel.frame.width, height: subtitleHeight)
         subtitleLabel.sizeToFit()
+    }
+    
+    // MARK - UIView
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        configureView()
     }
     
 }
