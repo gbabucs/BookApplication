@@ -18,7 +18,7 @@ class ServiceManager {
     // MARK: Struct
     
     struct Request {
-        static let bookUrl = "https://www.googleapis.com/books/v1/volumes?filter=free-ebooks&q=a"
+        static let bookUrl = "https://www.googleapis.com/books/v1/volumes?filter=free-ebooks&q="
     }
     
     //MARK: Static
@@ -27,7 +27,7 @@ class ServiceManager {
     
     // MARK: Functions
     
-    func getBook(completion onCompletion: @escaping BookResponse) -> Void {
+    func getBook(for searchText: String, completion onCompletion: @escaping BookResponse) -> Void {
         
         //If want to run local JSON file please rename Books12 to Books
         if let path = Bundle.main.path(forResource: "Books12", ofType: "json") {
@@ -45,7 +45,13 @@ class ServiceManager {
             }
         }
         else {
-            guard let url = NSURL(string: Request.bookUrl) else {
+            guard let allowedUrlString = searchText.addingPercentEncoding(withAllowedCharacters:.urlHostAllowed) else {
+                return
+            }
+            
+            let urlString = "\(Request.bookUrl)\(allowedUrlString)"
+            
+            guard let url = NSURL(string: urlString) else {
                 return
             }
             

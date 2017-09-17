@@ -12,6 +12,7 @@ class BookListViewController: UIViewController {
     
     //MARK: Outlets
     
+    @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
     
     //MARK: Properties
@@ -28,6 +29,9 @@ class BookListViewController: UIViewController {
         let topRated = UIBarButtonItem(title: "All", style: .plain, target: self, action: #selector(showAllItems))
         let advanceFilter = UIBarButtonItem(title: "Filter", style: .plain, target: self, action: #selector(showActionSheet))
         
+        tableView.endEditing(true)
+        view.endEditing(true)
+        searchBar.endEditing(true)
         navigationItem.rightBarButtonItem = topRated
         navigationItem.leftBarButtonItem = advanceFilter
         tableView.tableFooterView = UIView()
@@ -41,10 +45,10 @@ class BookListViewController: UIViewController {
     
     //MARK: Helpers
     
-    private func readJSON(){
+    func performSearchWithText(searchText: String) {
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
         
-        ServiceManager.shared.getBook() { error, books in
+        ServiceManager.shared.getBook(for: searchText) { error, books in
             self.hideIndicator()
             if error != nil {
                 print(error.debugDescription)
@@ -65,7 +69,7 @@ class BookListViewController: UIViewController {
     
     @objc
     func showActionSheet() {
-        let alertViewController = UIAlertController(title: "", message: "Choose Fileter", preferredStyle: .actionSheet)
+        let alertViewController = UIAlertController(title: "", message: "Choose Filter", preferredStyle: .actionSheet)
         let topRatedAction = UIAlertAction(title: "Top rated", style: .default) { _ in
             self.filterWithTopRated()
         }
@@ -109,7 +113,8 @@ class BookListViewController: UIViewController {
         
         setup()
         setupEvents()
-        readJSON()
+        //"https://www.googleapis.com/books/v1/volumes?filter=free-ebooks&q=a"
+        performSearchWithText(searchText: "a")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -181,6 +186,23 @@ extension BookListViewController: UITableViewDelegate {
         selectedBookDetail = item.bookDetail
         
         performSegue(withIdentifier: "showBookDetail", sender: self)
+    }
+    
+}
+
+// MARK: - UISearchBarDelegate
+
+extension BookListViewController: UISearchBarDelegate {
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+        
+        guard let text = searchBar.text,
+            !text.isEmpty else {
+                return
+        }
+        
+        performSearchWithText(searchText: text)
     }
     
 }

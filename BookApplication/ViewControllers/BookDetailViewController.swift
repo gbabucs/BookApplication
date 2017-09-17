@@ -33,14 +33,13 @@ class BookDetailViewController: UIViewController {
             return
         }
         
+        let subtitleHeight = subtitleLabel.optimalHeight
+        
         imageView.setImage(withUrl: bookInfo.url)
         titleLabel.text = bookInfo.title
         authorsLabel.text = bookInfo.authors
         subtitleLabel.text = bookInfo.subtitle
         ratingLabel.text = "Average Rating: \(bookInfo.rating)"
-        
-        let subtitleHeight = subtitleLabel.optimalHeight
-        
         subtitleLabel.frame = CGRect(x: subtitleLabel.frame.origin.x, y: subtitleLabel.frame.origin.y, width: subtitleLabel.frame.width, height: subtitleHeight)
         subtitleLabel.sizeToFit()
     }
