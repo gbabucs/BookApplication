@@ -71,18 +71,18 @@
 		E76BD2341F6DD5BA00F69E1B /* BookListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListDataSource.swift; sourceTree = "<group>"; };
 		E76BD2521F6DD95A00F69E1B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E76BD2541F6ECE3F00F69E1B /* BookPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPreviewViewController.swift; sourceTree = "<group>"; };
-		E76BD26C1F6EE1BD00F69E1B /* APIItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIItems.swift; path = BookApplication/Model/APIItems.swift; sourceTree = SOURCE_ROOT; };
-		E76BD26D1F6EE1BD00F69E1B /* APIBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIBooks.swift; path = BookApplication/Model/APIBooks.swift; sourceTree = SOURCE_ROOT; };
-		E76BD26E1F6EE1BD00F69E1B /* APIAccessInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIAccessInfo.swift; path = BookApplication/Model/APIAccessInfo.swift; sourceTree = SOURCE_ROOT; };
-		E76BD26F1F6EE1BD00F69E1B /* APIIndustryIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIIndustryIdentifiers.swift; path = BookApplication/Model/APIIndustryIdentifiers.swift; sourceTree = SOURCE_ROOT; };
-		E76BD2701F6EE1BD00F69E1B /* APIReadingModes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIReadingModes.swift; path = BookApplication/Model/APIReadingModes.swift; sourceTree = SOURCE_ROOT; };
-		E76BD2711F6EE1BD00F69E1B /* APIPdf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIPdf.swift; path = BookApplication/Model/APIPdf.swift; sourceTree = SOURCE_ROOT; };
-		E76BD2721F6EE1BD00F69E1B /* APIImageLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIImageLinks.swift; path = BookApplication/Model/APIImageLinks.swift; sourceTree = SOURCE_ROOT; };
-		E76BD2731F6EE1BD00F69E1B /* APIPanelizationSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIPanelizationSummary.swift; path = BookApplication/Model/APIPanelizationSummary.swift; sourceTree = SOURCE_ROOT; };
-		E76BD2741F6EE1BD00F69E1B /* APIVolumeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIVolumeInfo.swift; path = BookApplication/Model/APIVolumeInfo.swift; sourceTree = SOURCE_ROOT; };
-		E76BD2751F6EE1BD00F69E1B /* APISaleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APISaleInfo.swift; path = BookApplication/Model/APISaleInfo.swift; sourceTree = SOURCE_ROOT; };
-		E76BD2761F6EE1BD00F69E1B /* APIEpub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIEpub.swift; path = BookApplication/Model/APIEpub.swift; sourceTree = SOURCE_ROOT; };
-		E76BD2821F6EE20600F69E1B /* Books.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Books.json; path = BookApplication/Resources/Books.json; sourceTree = SOURCE_ROOT; };
+		E76BD26C1F6EE1BD00F69E1B /* APIItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIItems.swift; path = BookApplication/Model/APIModel/APIItems.swift; sourceTree = SOURCE_ROOT; };
+		E76BD26D1F6EE1BD00F69E1B /* APIBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIBooks.swift; path = BookApplication/Model/APIModel/APIBooks.swift; sourceTree = SOURCE_ROOT; };
+		E76BD26E1F6EE1BD00F69E1B /* APIAccessInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIAccessInfo.swift; path = BookApplication/Model/APIModel/APIAccessInfo.swift; sourceTree = SOURCE_ROOT; };
+		E76BD26F1F6EE1BD00F69E1B /* APIIndustryIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIIndustryIdentifiers.swift; path = BookApplication/Model/APIModel/APIIndustryIdentifiers.swift; sourceTree = SOURCE_ROOT; };
+		E76BD2701F6EE1BD00F69E1B /* APIReadingModes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIReadingModes.swift; path = BookApplication/Model/APIModel/APIReadingModes.swift; sourceTree = SOURCE_ROOT; };
+		E76BD2711F6EE1BD00F69E1B /* APIPdf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIPdf.swift; path = BookApplication/Model/APIModel/APIPdf.swift; sourceTree = SOURCE_ROOT; };
+		E76BD2721F6EE1BD00F69E1B /* APIImageLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIImageLinks.swift; path = BookApplication/Model/APIModel/APIImageLinks.swift; sourceTree = SOURCE_ROOT; };
+		E76BD2731F6EE1BD00F69E1B /* APIPanelizationSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIPanelizationSummary.swift; path = BookApplication/Model/APIModel/APIPanelizationSummary.swift; sourceTree = SOURCE_ROOT; };
+		E76BD2741F6EE1BD00F69E1B /* APIVolumeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIVolumeInfo.swift; path = BookApplication/Model/APIModel/APIVolumeInfo.swift; sourceTree = SOURCE_ROOT; };
+		E76BD2751F6EE1BD00F69E1B /* APISaleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APISaleInfo.swift; path = BookApplication/Model/APIModel/APISaleInfo.swift; sourceTree = SOURCE_ROOT; };
+		E76BD2761F6EE1BD00F69E1B /* APIEpub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIEpub.swift; path = BookApplication/Model/APIModel/APIEpub.swift; sourceTree = SOURCE_ROOT; };
+		E76BD2821F6EE20600F69E1B /* Books.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Books.json; path = BookApplication/Resources/Mock/Books.json; sourceTree = SOURCE_ROOT; };
 		E8FDB28AF32F042ABA662B3F /* Pods-BookApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookApplication/Pods-BookApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,7 +177,7 @@
 		E76BD21D1F6DCE4900F69E1B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E76BD2261F6DCEC000F69E1B /* Mocks */,
+				E76BD2881F6EE5CF00F69E1B /* Mock */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -201,7 +201,7 @@
 		E76BD2211F6DCE6E00F69E1B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E76BD2251F6DCEAF00F69E1B /* GeneratedModel */,
+				E76BD2891F6EE5E800F69E1B /* APIModel */,
 				E76BD22D1F6DD4AC00F69E1B /* BookListItem.swift */,
 				E76BD2301F6DD4CB00F69E1B /* BookDetailItem.swift */,
 			);
@@ -234,7 +234,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E76BD2251F6DCEAF00F69E1B /* GeneratedModel */ = {
+		E76BD2881F6EE5CF00F69E1B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				E76BD2821F6EE20600F69E1B /* Books.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		E76BD2891F6EE5E800F69E1B /* APIModel */ = {
 			isa = PBXGroup;
 			children = (
 				E76BD26E1F6EE1BD00F69E1B /* APIAccessInfo.swift */,
@@ -249,15 +257,7 @@
 				E76BD2751F6EE1BD00F69E1B /* APISaleInfo.swift */,
 				E76BD2741F6EE1BD00F69E1B /* APIVolumeInfo.swift */,
 			);
-			path = GeneratedModel;
-			sourceTree = "<group>";
-		};
-		E76BD2261F6DCEC000F69E1B /* Mocks */ = {
-			isa = PBXGroup;
-			children = (
-				E76BD2821F6EE20600F69E1B /* Books.json */,
-			);
-			path = Mocks;
+			path = APIModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
