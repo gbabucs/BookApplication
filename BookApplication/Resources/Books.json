@@ -1,0 +1,743 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 724,
+    "items": [
+              {
+              "kind": "books#volume",
+              "id": "3UySXcmTv6kC",
+              "etag": "MsvqS0mfQ3M",
+              "selfLink": "https://www.googleapis.com/books/v1/volumes/3UySXcmTv6kC",
+              "volumeInfo": {
+              "title": "Flowers",
+              "authors": [
+                          "Victoria Charles"
+                          ],
+              "publisher": "Parkstone International",
+              "publishedDate": "2011-07-01",
+              "description": "Flowers are the centerpiece in the majority of pictorial still-lifes. By painting their colours and forms, artists from Brueghel to O’Keeffe have created symbols for both life and mortality. Van Gogh’s sunflowers, Monet’s water lilies and Matisse’s bouquets are, of course, unforgotten. Most of the works contained in Flowers are true masterpieces, which have often marked whole epochs and styles.",
+              "industryIdentifiers": [
+                                      {
+                                      "type": "ISBN_13",
+                                      "identifier": "9781780421827"
+                                      },
+                                      {
+                                      "type": "ISBN_10",
+                                      "identifier": "1780421826"
+                                      }
+                                      ],
+              "readingModes": {
+              "text": false,
+              "image": true
+              },
+              "pageCount": 256,
+              "printType": "BOOK",
+              "categories": [
+                             "Art"
+                             ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": true,
+              "contentVersion": "0.1.0.0.preview.1",
+              "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+              },
+              "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=3UySXcmTv6kC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=3UySXcmTv6kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.nl/books?id=3UySXcmTv6kC&printsec=frontcover&dq=flowers&hl=&cd=1&source=gbs_api",
+              "infoLink": "https://play.google.com/store/books/details?id=3UySXcmTv6kC&source=gbs_api",
+              "canonicalVolumeLink": "https://market.android.com/details?id=book-3UySXcmTv6kC"
+              },
+              "saleInfo": {
+              "country": "NL",
+              "saleability": "FOR_SALE",
+              "isEbook": true,
+              "listPrice": {
+              "amount": 6.05,
+              "currencyCode": "EUR"
+              },
+              "retailPrice": {
+              "amount": 4.54,
+              "currencyCode": "EUR"
+              },
+              "buyLink": "https://play.google.com/store/books/details?id=3UySXcmTv6kC&rdid=book-3UySXcmTv6kC&rdot=1&source=gbs_api",
+              "offers": [
+                         {
+                         "finskyOfferType": 1,
+                         "listPrice": {
+                         "amountInMicros": 6050000.0,
+                         "currencyCode": "EUR"
+                         },
+                         "retailPrice": {
+                         "amountInMicros": 4540000.0,
+                         "currencyCode": "EUR"
+                         }
+                         }
+                         ]
+              },
+              "accessInfo": {
+              "country": "NL",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+              "isAvailable": false
+              },
+              "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.nl/books/download/Flowers-sample-pdf.acsm?id=3UySXcmTv6kC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=3UySXcmTv6kC&hl=&printsec=frontcover&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+              },
+              "searchInfo": {
+              "textSnippet": "Van Gogh’s sunflowers, Monet’s water lilies and Matisse’s bouquets are, of course, unforgotten. Most of the works contained in Flowers are true masterpieces, which have often marked whole epochs and styles."
+              }
+              },
+              {
+              "kind": "books#volume",
+              "id": "YgK6iJyu-ZEC",
+              "etag": "DyCmcvrcGzU",
+              "selfLink": "https://www.googleapis.com/books/v1/volumes/YgK6iJyu-ZEC",
+              "volumeInfo": {
+              "title": "Preserving Flowers",
+              "subtitle": "Dried & Pressed Floral Designs for Every Season",
+              "authors": [
+                          "Diane Flowers"
+                          ],
+              "publisher": "Sterling Publishing Company, Inc.",
+              "publishedDate": "2008",
+              "description": "Learn how easy pressing and preserving flowers can be and then create spectacular, one-of-a-king arrangements. More than 40 original designs for gorgeous wreaths, centerpieces, picture frames, and more, all featuring plants that you have dried, will showcase your talent and brighten your home.--COVER.",
+              "industryIdentifiers": [
+                                      {
+                                      "type": "ISBN_13",
+                                      "identifier": "9781402753886"
+                                      },
+                                      {
+                                      "type": "ISBN_10",
+                                      "identifier": "1402753888"
+                                      }
+                                      ],
+              "readingModes": {
+              "text": true,
+              "image": true
+              },
+              "pageCount": 128,
+              "printType": "BOOK",
+              "categories": [
+                             "Crafts & Hobbies"
+                             ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "1.1.3.0.preview.3",
+              "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=YgK6iJyu-ZEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=YgK6iJyu-ZEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.nl/books?id=YgK6iJyu-ZEC&printsec=frontcover&dq=flowers&hl=&cd=2&source=gbs_api",
+              "infoLink": "http://books.google.nl/books?id=YgK6iJyu-ZEC&dq=flowers&hl=&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Preserving_Flowers.html?hl=&id=YgK6iJyu-ZEC"
+              },
+              "saleInfo": {
+              "country": "NL",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+              },
+              "accessInfo": {
+              "country": "NL",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.nl/books/download/Preserving_Flowers-sample-epub.acsm?id=YgK6iJyu-ZEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "pdf": {
+              "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=YgK6iJyu-ZEC&hl=&printsec=frontcover&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+              },
+              "searchInfo": {
+              "textSnippet": "Full-color, illustrated instructions for creating over forty dried and pressed floral designs and projects."
+              }
+              },
+              {
+              "kind": "books#volume",
+              "id": "svMpjjnnig0C",
+              "etag": "y4FjX6CS4K8",
+              "selfLink": "https://www.googleapis.com/books/v1/volumes/svMpjjnnig0C",
+              "volumeInfo": {
+              "title": "Flowers",
+              "authors": [
+                          "Anna Pomaska"
+                          ],
+              "publisher": "Courier Corporation",
+              "publishedDate": "2000-05-01",
+              "description": "Simple, ready-to-color illustrations capture the unique identities of 30 common flowers, among them the daisy, lily, columbine, dandelion, hibiscus, iris, poppy, rose, and carnation. Whimsical images of bees, butterflies, birds and other creatures also appear in these large, fun-to-color pictures. A simple caption provides information on each subect.",
+              "industryIdentifiers": [
+                                      {
+                                      "type": "ISBN_10",
+                                      "identifier": "0486410285"
+                                      },
+                                      {
+                                      "type": "ISBN_13",
+                                      "identifier": "9780486410289"
+                                      }
+                                      ],
+              "readingModes": {
+              "text": false,
+              "image": true
+              },
+              "pageCount": 32,
+              "printType": "BOOK",
+              "categories": [
+                             "Juvenile Nonfiction"
+                             ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.0.1.0.preview.1",
+              "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=svMpjjnnig0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=svMpjjnnig0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.nl/books?id=svMpjjnnig0C&printsec=frontcover&dq=flowers&hl=&cd=3&source=gbs_api",
+              "infoLink": "http://books.google.nl/books?id=svMpjjnnig0C&dq=flowers&hl=&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=svMpjjnnig0C"
+              },
+              "saleInfo": {
+              "country": "NL",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+              },
+              "accessInfo": {
+              "country": "NL",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+              "isAvailable": false
+              },
+              "pdf": {
+              "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=svMpjjnnig0C&hl=&printsec=frontcover&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+              },
+              "searchInfo": {
+              "textSnippet": "Simple, ready-to-color illustrations capture the unique identities of 30 common flowers, among them the daisy, lily, columbine, dandelion, hibiscus, iris, poppy, rose, and carnation."
+              }
+              },
+              {
+              "kind": "books#volume",
+              "id": "CElIqGBvyusC",
+              "etag": "rhKXDVgzw8c",
+              "selfLink": "https://www.googleapis.com/books/v1/volumes/CElIqGBvyusC",
+              "volumeInfo": {
+              "title": "Flowers In The Attic",
+              "authors": [
+                          "V.C. Andrews"
+                          ],
+              "publisher": "Simon and Schuster",
+              "publishedDate": "2011-02-08",
+              "description": "Now a major Lifetime movie event—the classic story of forbidden love that captured the world’s imagination and earned V.C. Andrews a fiercely devoted fanbase. Book One of the Dollanganger family saga. At the top of the stairs there are four secrets hidden. Blond, beautiful, innocent, and struggling to stay alive . . . They were a perfect family, golden and carefree—until a heartbreaking tragedy shattered their happiness. Now, for the sake of an inheritance that will ensure their future, the children must be hidden away out of sight, as if they never existed. Kept on the top floor of their grandmother’s vast mansion, their loving mother assures them it will be just for a little while. But as brutal days swell into agonizing months and years, Cathy, Chris, and twins Cory and Carrie, realize their survival is at the mercy of their cruel and superstitious grandmother . . . and this cramped and helpless world may be the only one they ever know. Book One of the Dollanganger series, the sequels include Petals in the Wind, If There Be Thorns, Seeds of Yesterday, and Garden of Shadows. Then experience the attic from Christopher’s point of view in Christopher’s Diary: Secrets of Foxworth and Christopher’s Diary: Echoes of Dollanganger.",
+              "industryIdentifiers": [
+                                      {
+                                      "type": "ISBN_13",
+                                      "identifier": "9781451636949"
+                                      },
+                                      {
+                                      "type": "ISBN_10",
+                                      "identifier": "1451636946"
+                                      }
+                                      ],
+              "readingModes": {
+              "text": true,
+              "image": false
+              },
+              "pageCount": 416,
+              "printType": "BOOK",
+              "categories": [
+                             "Fiction"
+                             ],
+              "averageRating": 3.5,
+              "ratingsCount": 70,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": true,
+              "contentVersion": "1.23.24.0.preview.2",
+              "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+              },
+              "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=CElIqGBvyusC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=CElIqGBvyusC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.nl/books?id=CElIqGBvyusC&printsec=frontcover&dq=flowers&hl=&cd=4&source=gbs_api",
+              "infoLink": "https://play.google.com/store/books/details?id=CElIqGBvyusC&source=gbs_api",
+              "canonicalVolumeLink": "https://market.android.com/details?id=book-CElIqGBvyusC"
+              },
+              "saleInfo": {
+              "country": "NL",
+              "saleability": "FOR_SALE",
+              "isEbook": true,
+              "listPrice": {
+              "amount": 8.13,
+              "currencyCode": "EUR"
+              },
+              "retailPrice": {
+              "amount": 5.53,
+              "currencyCode": "EUR"
+              },
+              "buyLink": "https://play.google.com/store/books/details?id=CElIqGBvyusC&rdid=book-CElIqGBvyusC&rdot=1&source=gbs_api",
+              "offers": [
+                         {
+                         "finskyOfferType": 1,
+                         "listPrice": {
+                         "amountInMicros": 8130000.0,
+                         "currencyCode": "EUR"
+                         },
+                         "retailPrice": {
+                         "amountInMicros": 5530000.0,
+                         "currencyCode": "EUR"
+                         }
+                         }
+                         ]
+              },
+              "accessInfo": {
+              "country": "NL",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+              "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.nl/books/download/Flowers_In_The_Attic-sample-epub.acsm?id=CElIqGBvyusC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "pdf": {
+              "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=CElIqGBvyusC&hl=&printsec=frontcover&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+              },
+              "searchInfo": {
+              "textSnippet": "Book One of the Dollanganger series, the sequels include Petals in the Wind, If There Be Thorns, Seeds of Yesterday, and Garden of Shadows."
+              }
+              },
+              {
+              "kind": "books#volume",
+              "id": "8_DfMSS9r9cC",
+              "etag": "43aq+1C1OFQ",
+              "selfLink": "https://www.googleapis.com/books/v1/volumes/8_DfMSS9r9cC",
+              "volumeInfo": {
+              "title": "Diversity and Evolutionary Biology of Tropical Flowers",
+              "authors": [
+                          "Peter K. Endress"
+                          ],
+              "publisher": "Cambridge University Press",
+              "publishedDate": "1996-07-25",
+              "description": "A unique account of the structure, biology and evolution of tropical flowering plants.",
+              "industryIdentifiers": [
+                                      {
+                                      "type": "ISBN_10",
+                                      "identifier": "0521565103"
+                                      },
+                                      {
+                                      "type": "ISBN_13",
+                                      "identifier": "9780521565103"
+                                      }
+                                      ],
+              "readingModes": {
+              "text": false,
+              "image": true
+              },
+              "pageCount": 511,
+              "printType": "BOOK",
+              "categories": [
+                             "Nature"
+                             ],
+              "averageRating": 5.0,
+              "ratingsCount": 1,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "1.0.0.0.preview.1",
+              "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=8_DfMSS9r9cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=8_DfMSS9r9cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.nl/books?id=8_DfMSS9r9cC&printsec=frontcover&dq=flowers&hl=&cd=5&source=gbs_api",
+              "infoLink": "http://books.google.nl/books?id=8_DfMSS9r9cC&dq=flowers&hl=&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Diversity_and_Evolutionary_Biology_of_Tr.html?hl=&id=8_DfMSS9r9cC"
+              },
+              "saleInfo": {
+              "country": "NL",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+              },
+              "accessInfo": {
+              "country": "NL",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+              "isAvailable": false
+              },
+              "pdf": {
+              "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=8_DfMSS9r9cC&hl=&printsec=frontcover&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+              },
+              "searchInfo": {
+              "textSnippet": "This volume concentrates on tropical flowers in which, whilst sharing many of the features seen in temperate flowers, exhibit phenomena which are purely tropical."
+              }
+              },
+              {
+              "kind": "books#volume",
+              "id": "2bCdaZ7KvDsC",
+              "etag": "q9MeRyh5W1Q",
+              "selfLink": "https://www.googleapis.com/books/v1/volumes/2bCdaZ7KvDsC",
+              "volumeInfo": {
+              "title": "The Language of Flowers",
+              "subtitle": "The Floral Offering: a Token of Affection and Esteem; Comprising the Language and Poetry of Flowers ...",
+              "authors": [
+                          "Henrietta Dumont"
+                          ],
+              "publishedDate": "1852",
+              "industryIdentifiers": [
+                                      {
+                                      "type": "OTHER",
+                                      "identifier": "HARVARD:32044013658547"
+                                      }
+                                      ],
+              "readingModes": {
+              "text": true,
+              "image": true
+              },
+              "pageCount": 300,
+              "printType": "BOOK",
+              "categories": [
+                             "Flower language"
+                             ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.0.1.0.full.3",
+              "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=2bCdaZ7KvDsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=2bCdaZ7KvDsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.nl/books?id=2bCdaZ7KvDsC&printsec=frontcover&dq=flowers&hl=&cd=6&source=gbs_api",
+              "infoLink": "https://play.google.com/store/books/details?id=2bCdaZ7KvDsC&source=gbs_api",
+              "canonicalVolumeLink": "https://market.android.com/details?id=book-2bCdaZ7KvDsC"
+              },
+              "saleInfo": {
+              "country": "NL",
+              "saleability": "FREE",
+              "isEbook": true,
+              "buyLink": "https://play.google.com/store/books/details?id=2bCdaZ7KvDsC&rdid=book-2bCdaZ7KvDsC&rdot=1&source=gbs_api"
+              },
+              "accessInfo": {
+              "country": "NL",
+              "viewability": "ALL_PAGES",
+              "embeddable": true,
+              "publicDomain": true,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+              "isAvailable": true,
+              "downloadLink": "http://books.google.nl/books/download/The_Language_of_Flowers.epub?id=2bCdaZ7KvDsC&hl=&output=epub&source=gbs_api"
+              },
+              "pdf": {
+              "isAvailable": true,
+              "downloadLink": "http://books.google.nl/books/download/The_Language_of_Flowers.pdf?id=2bCdaZ7KvDsC&hl=&output=pdf&sig=ACfU3U1n9agbciLzFXS4cd_vmKAJsTiEZA&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=2bCdaZ7KvDsC&hl=&printsec=frontcover&source=gbs_api",
+              "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+              "quoteSharingAllowed": false
+              }
+              },
+              {
+              "kind": "books#volume",
+              "id": "ktkDAAAAQAAJ",
+              "etag": "L0FSOpWChhI",
+              "selfLink": "https://www.googleapis.com/books/v1/volumes/ktkDAAAAQAAJ",
+              "volumeInfo": {
+              "title": "Flowers and their associations",
+              "authors": [
+                          "Anne Pratt"
+                          ],
+              "publishedDate": "1840",
+              "industryIdentifiers": [
+                                      {
+                                      "type": "OTHER",
+                                      "identifier": "OXFORD:590805315"
+                                      }
+                                      ],
+              "readingModes": {
+              "text": false,
+              "image": true
+              },
+              "printType": "BOOK",
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "full-1.0.0",
+              "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=ktkDAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=ktkDAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.nl/books?id=ktkDAAAAQAAJ&printsec=frontcover&dq=flowers&hl=&cd=7&source=gbs_api",
+              "infoLink": "https://play.google.com/store/books/details?id=ktkDAAAAQAAJ&source=gbs_api",
+              "canonicalVolumeLink": "https://market.android.com/details?id=book-ktkDAAAAQAAJ"
+              },
+              "saleInfo": {
+              "country": "NL",
+              "saleability": "FREE",
+              "isEbook": true,
+              "buyLink": "https://play.google.com/store/books/details?id=ktkDAAAAQAAJ&rdid=book-ktkDAAAAQAAJ&rdot=1&source=gbs_api"
+              },
+              "accessInfo": {
+              "country": "NL",
+              "viewability": "ALL_PAGES",
+              "embeddable": true,
+              "publicDomain": true,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+              "isAvailable": false,
+              "downloadLink": "http://books.google.nl/books/download/Flowers_and_their_associations.epub?id=ktkDAAAAQAAJ&hl=&output=epub&source=gbs_api"
+              },
+              "pdf": {
+              "isAvailable": true,
+              "downloadLink": "http://books.google.nl/books/download/Flowers_and_their_associations.pdf?id=ktkDAAAAQAAJ&hl=&output=pdf&sig=ACfU3U3t31n5hoTWLkxSLsAOK6I3ZhgdHw&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=ktkDAAAAQAAJ&hl=&printsec=frontcover&source=gbs_api",
+              "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+              "quoteSharingAllowed": false
+              }
+              },
+              {
+              "kind": "books#volume",
+              "id": "xaQ3kJ6jIOAC",
+              "etag": "QRaWLA+W3H8",
+              "selfLink": "https://www.googleapis.com/books/v1/volumes/xaQ3kJ6jIOAC",
+              "volumeInfo": {
+              "title": "Flowers in Medieval Manuscripts",
+              "authors": [
+                          "Celia Fisher"
+                          ],
+              "publisher": "University of Toronto Press",
+              "publishedDate": "2004",
+              "description": "Each section of Flowers in Medieval Manuscripts includes relevant details of the manuscripts from which the illustrations are taken, and the concluding section discusses manuscript production in relation to these margins.",
+              "industryIdentifiers": [
+                                      {
+                                      "type": "ISBN_10",
+                                      "identifier": "0802037968"
+                                      },
+                                      {
+                                      "type": "ISBN_13",
+                                      "identifier": "9780802037961"
+                                      }
+                                      ],
+              "readingModes": {
+              "text": false,
+              "image": true
+              },
+              "pageCount": 64,
+              "printType": "BOOK",
+              "categories": [
+                             "Art"
+                             ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.0.1.0.preview.1",
+              "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=xaQ3kJ6jIOAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=xaQ3kJ6jIOAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.nl/books?id=xaQ3kJ6jIOAC&printsec=frontcover&dq=flowers&hl=&cd=8&source=gbs_api",
+              "infoLink": "http://books.google.nl/books?id=xaQ3kJ6jIOAC&dq=flowers&hl=&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Flowers_in_Medieval_Manuscripts.html?hl=&id=xaQ3kJ6jIOAC"
+              },
+              "saleInfo": {
+              "country": "NL",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+              },
+              "accessInfo": {
+              "country": "NL",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+              "isAvailable": false
+              },
+              "pdf": {
+              "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=xaQ3kJ6jIOAC&hl=&printsec=frontcover&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+              },
+              "searchInfo": {
+              "textSnippet": "Each section of Flowers in Medieval Manuscripts includes relevant details of the manuscripts from which the illustrations are taken, and the concluding section discusses manuscript production in relation to these margins."
+              }
+              },
+              {
+              "kind": "books#volume",
+              "id": "Zyp37sqimpkC",
+              "etag": "GYRFFBD2vgM",
+              "selfLink": "https://www.googleapis.com/books/v1/volumes/Zyp37sqimpkC",
+              "volumeInfo": {
+              "title": "The Art of French Beaded Flowers",
+              "subtitle": "Creative Techniques for Making 30 Beautiful Blooms",
+              "authors": [
+                          "Carol Benner Doelp"
+                          ],
+              "publisher": "Lark Books",
+              "publishedDate": "2004",
+              "description": "French beading is a simple yet lovely art, beautifully described here and illustrated in color with more than 70 close-up, how-to photos that show how to grow a garden of 30 flowers with delicate seed beads. Forty additional illustrations present the exact bead placement for each particular flower part. Just string the beads on wires and bend them into realistic, three-dimensional shapes; a helpful introductory section covers all the basics. Craft a budding dogwood branch, frame a mirror with wisteria blooms, or make a holiday wreath of holly and gold-tipped pinecones. A gallery of vintage pieces illustrates the rich history of the craft.",
+              "industryIdentifiers": [
+                                      {
+                                      "type": "ISBN_10",
+                                      "identifier": "1579904262"
+                                      },
+                                      {
+                                      "type": "ISBN_13",
+                                      "identifier": "9781579904265"
+                                      }
+                                      ],
+              "readingModes": {
+              "text": false,
+              "image": true
+              },
+              "pageCount": 128,
+              "printType": "BOOK",
+              "categories": [
+                             "Crafts & Hobbies"
+                             ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=Zyp37sqimpkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=Zyp37sqimpkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.nl/books?id=Zyp37sqimpkC&printsec=frontcover&dq=flowers&hl=&cd=9&source=gbs_api",
+              "infoLink": "http://books.google.nl/books?id=Zyp37sqimpkC&dq=flowers&hl=&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/The_Art_of_French_Beaded_Flowers.html?hl=&id=Zyp37sqimpkC"
+              },
+              "saleInfo": {
+              "country": "NL",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+              },
+              "accessInfo": {
+              "country": "NL",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+              "isAvailable": false
+              },
+              "pdf": {
+              "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=Zyp37sqimpkC&hl=&printsec=frontcover&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+              },
+              "searchInfo": {
+              "textSnippet": "French beading is a simple yet lovely art, beautifully described here and illustrated in color with more than 70 close-up, how-to photos that show how to grow a garden of 30 flowers with delicate seed beads."
+              }
+              },
+              {
+              "kind": "books#volume",
+              "id": "F1wgqlNi8AMC",
+              "etag": "OM8mMNWndIg",
+              "selfLink": "https://www.googleapis.com/books/v1/volumes/F1wgqlNi8AMC",
+              "volumeInfo": {
+              "title": "Flowers for Algernon",
+              "subtitle": "Full",
+              "authors": [
+                          "David Rogers",
+                          "Daniel Keyes"
+                          ],
+              "publisher": "Dramatic Publishing",
+              "publishedDate": "1969",
+              "description": "The compelling story of Charlie Gordon, willing victim of a strange experiment - a moron, a genius, a man in search of himself. Poignant, funny, tragic, but with a hope for the indomitable spirit of man, this unusual play tells a story you will long remember. It also offers a magnificent role.",
+              "industryIdentifiers": [
+                                      {
+                                      "type": "ISBN_10",
+                                      "identifier": "0871295377"
+                                      },
+                                      {
+                                      "type": "ISBN_13",
+                                      "identifier": "9780871295378"
+                                      }
+                                      ],
+              "readingModes": {
+              "text": false,
+              "image": true
+              },
+              "pageCount": 117,
+              "printType": "BOOK",
+              "averageRating": 5.0,
+              "ratingsCount": 1,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.0.1.0.preview.1",
+              "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=F1wgqlNi8AMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=F1wgqlNi8AMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.nl/books?id=F1wgqlNi8AMC&printsec=frontcover&dq=flowers&hl=&cd=10&source=gbs_api",
+              "infoLink": "http://books.google.nl/books?id=F1wgqlNi8AMC&dq=flowers&hl=&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Flowers_for_Algernon.html?hl=&id=F1wgqlNi8AMC"
+              },
+              "saleInfo": {
+              "country": "NL",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+              },
+              "accessInfo": {
+              "country": "NL",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+              "isAvailable": false
+              },
+              "pdf": {
+              "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=F1wgqlNi8AMC&hl=&printsec=frontcover&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+              },
+              "searchInfo": {
+              "textSnippet": "The compelling story of Charlie Gordon, willing victim of a strange experiment - a moron, a genius, a man in search of himself."
+              }
+              }
+              ]
+}
