@@ -65,13 +65,17 @@ class BookPreviewViewController: UIViewController {
 //MARK:- WKNavigationDelegate
 
 extension BookPreviewViewController: WKNavigationDelegate {
+    
     func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
         print(error.localizedDescription)
     }
+    
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
         print("Strat to load")
     }
+    
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         print("finish to load")
     }
+    
 }
