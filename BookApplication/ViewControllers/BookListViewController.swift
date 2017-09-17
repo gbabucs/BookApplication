@@ -42,10 +42,21 @@ class BookListViewController: UIViewController {
     //MARK: Helpers
     
     private func readJSON(){
-        ServiceManager.getBook(for: "") { error, books in
-            if let books = books {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+        
+        ServiceManager.getBook() { error, books in
+            self.hideIndicator()
+            if error != nil {
+                print(error.debugDescription)
+            }
+            else if let books = books {
                 self.listOfBooks = books
                 self.dataSource = BookListDataSource(data: books)
+                
+                DispatchQueue.main.async(execute: { () -> Void in
+                    self.tableView.reloadData()
+                })
+                
             }
         }
     }
@@ -83,6 +94,13 @@ class BookListViewController: UIViewController {
         
         dataSource?.update(isReaded: !item.isReaded, at: indexPath, tableView: tableView)
     }
+    
+    func hideIndicator() {
+        DispatchQueue.main.async(execute: { () -> Void in
+            UIApplication.shared.isNetworkActivityIndicatorVisible = false
+        })
+    }
+    
     
     // MARK - UIView
     

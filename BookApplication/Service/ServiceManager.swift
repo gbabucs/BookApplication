@@ -13,8 +13,10 @@ class ServiceManager {
     
     typealias BookResponse = (Error?, APIBooks?) -> Void
     
-    class func getBook(for searchText: String, completion onCompletion: @escaping BookResponse) -> Void {
-        if let path = Bundle.main.path(forResource: "Books", ofType: "json") {
+    class func getBook(completion onCompletion: @escaping BookResponse) -> Void {
+        
+        //If want to run local JSON file please rename Books12 to Books
+        if let path = Bundle.main.path(forResource: "Books12", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
                 let jsonObj = JSON(data: data)
@@ -27,8 +29,42 @@ class ServiceManager {
             } catch let error {
                 onCompletion(error, nil)
             }
-        } else {
-            print("Invalid filename/path.")
+        }
+        else {
+            let urlString = "https://www.googleapis.com/books/v1/volumes?filter=free-ebooks&q=a"
+            
+            guard let url = NSURL(string: urlString) else {
+                return
+            }
+            
+            let searchTask = URLSession.shared.dataTask(with: url as URL, completionHandler: { data, response, error  in
+                if error != nil {
+                    print("Error: \(error.debugDescription)")
+                    
+                    onCompletion(error as NSError?, nil)
+                    return
+                }
+                
+                do {
+                    let resultsDictionary = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: AnyObject]
+                    
+                    guard let results = resultsDictionary else {
+                        return
+                    }
+                    
+                    let books = APIBooks(object: results)
+                    
+                    onCompletion(nil, books)
+                    
+                }
+                catch let error as NSError {
+                    print("Error parsing JSON: \(error)")
+                    
+                    onCompletion(error, nil)
+                    return
+                }
+            })
+            searchTask.resume()
         }
     }
 }
