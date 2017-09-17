@@ -29,9 +29,7 @@ class BookListViewController: UIViewController {
         let topRated = UIBarButtonItem(title: "All", style: .plain, target: self, action: #selector(showAllItems))
         let advanceFilter = UIBarButtonItem(title: "Filter", style: .plain, target: self, action: #selector(showActionSheet))
         
-        tableView.endEditing(true)
         view.endEditing(true)
-        searchBar.endEditing(true)
         navigationItem.rightBarButtonItem = topRated
         navigationItem.leftBarButtonItem = advanceFilter
         tableView.tableFooterView = UIView()
