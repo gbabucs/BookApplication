@@ -20,6 +20,7 @@ class BookDetailItem {
     var description: String
     var textSnippet: String
     var rating: Int
+    var previewUrl: String
     
     var url: URL {
         return URL(string: imageUrl)!
@@ -33,7 +34,8 @@ class BookDetailItem {
          subtitle: String = "",
          description: String = "",
          textSnippet: String = "",
-         rating: Int = 0) {
+         rating: Int = 0,
+         previewUrl: String = "") {
         self.imageUrl = imageUrl
         self.title = title
         self.authors = authors
@@ -41,5 +43,6 @@ class BookDetailItem {
         self.description = description
         self.textSnippet = textSnippet
         self.rating = rating
+        self.previewUrl = previewUrl
     }
 }

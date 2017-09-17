@@ -148,6 +148,10 @@ extension BookListDataSource {
             bookDetail.rating = rating
         }
         
+        if let previewUrl = book.volumeInfo?.previewLink {
+            bookDetail.previewUrl = previewUrl
+        }
+        
         item.isReaded = readed
         item.bookDetail = bookDetail
         

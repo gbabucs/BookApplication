@@ -196,6 +196,8 @@
                             <constraint firstItem="shr-8b-iBh" firstAttribute="top" secondItem="Sqw-LP-kJj" secondAttribute="bottom" id="ohp-Bc-gHX"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="authorsLabel" destination="Ov3-bc-h2c" id="IVQ-z3-dOg"/>
                         <outlet property="imageView" destination="ck2-1U-N4N" id="GDM-nz-6li"/>
@@ -203,11 +205,33 @@
                         <outlet property="scrollView" destination="Sqw-LP-kJj" id="CiT-Qz-boj"/>
                         <outlet property="subtitleLabel" destination="OUB-UG-mxZ" id="4ci-in-gJQ"/>
                         <outlet property="titleLabel" destination="dt0-Gd-pRr" id="5Hn-8X-yS5"/>
+                        <segue destination="6sF-0I-b7S" kind="presentation" identifier="showBookPreview" modalPresentationStyle="formSheet" id="l4i-Jg-dJb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m57-72-bYy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1125.5999999999999" y="133.5832083958021"/>
+        </scene>
+        <!--Book Preview View Controller-->
+        <scene sceneID="i7B-Gz-HBq">
+            <objects>
+                <viewController id="Kum-Nw-R5p" customClass="BookPreviewViewController" customModule="BookApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Wj-vV-ywW"/>
+                        <viewControllerLayoutGuide type="bottom" id="5e0-mU-AJ1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HJz-sY-Rfv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="hez-1I-KZC"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D4Q-G6-bE2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2812" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pvF-gc-5le">
@@ -226,6 +250,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cn5-qP-nPH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-370" y="137"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Lg6-vK-zSu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6sF-0I-b7S" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gny-Wl-dLZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Kum-Nw-R5p" kind="relationship" relationship="rootViewController" id="CGv-Bj-fFi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iH5-gt-U5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1931.2" y="133.13343328335833"/>
         </scene>
     </scenes>
 </document>

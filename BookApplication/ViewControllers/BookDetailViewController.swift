@@ -44,12 +44,46 @@ class BookDetailViewController: UIViewController {
         subtitleLabel.sizeToFit()
     }
     
+    func setupView(){
+        let previewButton = UIBarButtonItem(title: "Preview", style: .plain, target: self, action: #selector(previewAction))
+        
+        navigationItem.rightBarButtonItem = previewButton
+    }
+    
+    //MARK: Actions
+    
+    @objc
+    private func previewAction(){
+        guard let bookInfo = bookDetails else {
+            return
+        }
+        
+        performSegue(withIdentifier: "showBookPreview", sender: bookInfo)
+    }
+    
+    
     // MARK - UIView
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupView()
         configureView()
+    }
+    
+    // MARK - Segue
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showBookPreview" {
+            guard let previewNavigationController = segue.destination as? UINavigationController,
+                let bookPreviewViewController = previewNavigationController.viewControllers.first as? BookPreviewViewController,
+                 let previewUrl = bookDetails?.previewUrl
+            else {
+                    return
+            }
+            
+            bookPreviewViewController.previewUrl = previewUrl
+        }
     }
     
 }

@@ -34,6 +34,7 @@
 		E76BD24D1F6DD7F600F69E1B /* APIVolumeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76BD2421F6DD7F600F69E1B /* APIVolumeInfo.swift */; };
 		E76BD24E1F6DD7F600F69E1B /* APIBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76BD2431F6DD7F600F69E1B /* APIBooks.swift */; };
 		E76BD2531F6DD9E800F69E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76BD2521F6DD95A00F69E1B /* Main.storyboard */; };
+		E76BD2551F6ECE3F00F69E1B /* BookPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76BD2541F6ECE3F00F69E1B /* BookPreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		E76BD2421F6DD7F600F69E1B /* APIVolumeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIVolumeInfo.swift; path = ../../../../GeneratedClass/APIVolumeInfo.swift; sourceTree = "<group>"; };
 		E76BD2431F6DD7F600F69E1B /* APIBooks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIBooks.swift; path = ../../../../GeneratedClass/APIBooks.swift; sourceTree = "<group>"; };
 		E76BD2521F6DD95A00F69E1B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E76BD2541F6ECE3F00F69E1B /* BookPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPreviewViewController.swift; sourceTree = "<group>"; };
 		E8FDB28AF32F042ABA662B3F /* Pods-BookApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookApplication/Pods-BookApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -219,6 +221,7 @@
 			children = (
 				E70DE5841F6D66DE004B4FC3 /* BookListViewController.swift */,
 				E76BD2291F6DD46F00F69E1B /* BookDetailViewController.swift */,
+				E76BD2541F6ECE3F00F69E1B /* BookPreviewViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				E76BD24B1F6DD7F600F69E1B /* APIEpub.swift in Sources */,
 				E76BD24D1F6DD7F600F69E1B /* APIVolumeInfo.swift in Sources */,
 				E76BD2281F6DD41000F69E1B /* BookListCell.swift in Sources */,
+				E76BD2551F6ECE3F00F69E1B /* BookPreviewViewController.swift in Sources */,
 				E76BD24A1F6DD7F600F69E1B /* APIItems.swift in Sources */,
 				E70DE5851F6D66DE004B4FC3 /* BookListViewController.swift in Sources */,
 				E76BD2491F6DD7F600F69E1B /* APIImageLinks.swift in Sources */,

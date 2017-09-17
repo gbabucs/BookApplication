@@ -26,11 +26,12 @@ class BookListViewController: UIViewController {
     func setup(){
         title = "Books"
         
-        let topRated = UIBarButtonItem(title: "All", style: .plain, target: self, action: #selector(showAllItems))
+        let allItems = UIBarButtonItem(title: "All", style: .plain, target: self, action: #selector(showAllItems))
         let advanceFilter = UIBarButtonItem(title: "Filter", style: .plain, target: self, action: #selector(showActionSheet))
         
         view.endEditing(true)
-        navigationItem.rightBarButtonItem = topRated
+        
+        navigationItem.rightBarButtonItem = allItems
         navigationItem.leftBarButtonItem = advanceFilter
         tableView.tableFooterView = UIView()
     }
@@ -123,6 +124,7 @@ class BookListViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showBookDetail" {
+            searchBar.resignFirstResponder()
             guard let bookDetailViewController = segue.destination as? BookDetailViewController,
                 let selectedBookDetail = selectedBookDetail else {
                     return
